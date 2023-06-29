@@ -10,6 +10,8 @@ body {
 
 p {
     font-size: 20px;
+    /* font-family: "EB Garamond", "Avigea"; */
+    font-family: Avigea;
 }
 
 p.small {
@@ -32,7 +34,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: "EB Garamond", "Covered by Your Grace";
     font-weight: 700;
 }
 
@@ -83,7 +86,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #257E9C;
 }
 
 header .container {
@@ -183,6 +186,27 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+section.tour {
+    color: #fff;
+    background: #1B5D73;
+}
+
+section.prijevodi {
+    color: #fff;
+    background: #2A86A7;
+}
+
+section.poduke {
+    color: #fff;
+    background: #1B5D73;
+}
+
+section.about {
+    color: #fff;
+    background: #2A86A7;
+    /* text-emphasis-color: #731B5D; */
 }
 
 @media(max-width:767px) {
@@ -466,14 +490,14 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #257E9C;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #257E9C !important;
 }
 
 /* Fix modal mouse wheel issues */
