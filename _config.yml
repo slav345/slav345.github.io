@@ -70,3 +70,5 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+google_analytics: "G-TRN4ZYGEQS"
