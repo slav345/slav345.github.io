@@ -72,3 +72,5 @@ defaults:
       permalink: ""
 
 google_analytics: "G-TRN4ZYGEQS"
+plugins:
+        - jekyll-seo-tag
