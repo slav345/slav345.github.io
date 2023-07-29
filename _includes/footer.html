@@ -12,6 +12,11 @@
           </p>
         </div>
         <div class="footer-col col-md-4">
+          <div>
+            <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal" >Terms and Conditions</a>
+            <br>
+            <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal" >Privacy Policy</a>
+          </div>
           <h3>{{ site.footer.social }}</h3>
           <ul class="list-inline">
             {% for network in site.social %}
@@ -20,6 +25,7 @@
                   class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
             </li>
             {% endfor %}
+
           </ul>
         </div>
         <div class="footer-col col-md-4">
