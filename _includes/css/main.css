@@ -27,6 +27,12 @@ a.active {
     color: #FF7F27; /* #{{ site.color.pr imary }}; */
 }
 
+iframe {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 100%;
+}
+
 h1,
 h2,
 h3,
